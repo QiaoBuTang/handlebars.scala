@@ -1,6 +1,6 @@
 name := "handlebars-scala"
 
-organization := "com.gilt"
+organization := "com.qiaobutang"
 
 scalaVersion := "2.11.1"
 
