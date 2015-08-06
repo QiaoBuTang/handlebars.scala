@@ -2,9 +2,9 @@ name := "handlebars-scala"
 
 organization := "com.qiaobutang"
 
-scalaVersion := "2.11.1"
+scalaVersion := "2.11.7"
 
-crossScalaVersions := Seq("2.11.1", "2.10.4")
+crossScalaVersions := Seq("2.11.7", "2.10.5")
 
 def scala211Dependencies(scalaVersion:String) = {
   CrossVersion.partialVersion(scalaVersion) match {
