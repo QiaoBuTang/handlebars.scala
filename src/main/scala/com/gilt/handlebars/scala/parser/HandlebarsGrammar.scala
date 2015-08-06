@@ -10,7 +10,7 @@ object HandlebarsGrammar {
 }
 
 class HandlebarsGrammar(delimiters: (String, String)) extends JavaTokenParsers {
-  override def skipWhitespace = false
+  override protected val whiteSpace = """[\u2028\u2029\u0085]+""".r
 
   def apply(input: String) = {
     if (input.isEmpty) {
